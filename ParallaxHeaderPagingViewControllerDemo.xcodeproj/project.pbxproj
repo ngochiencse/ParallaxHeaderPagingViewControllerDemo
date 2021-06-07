@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0EF69AED266DB87D00A184C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF69AEC266DB87D00A184C9 /* AppDelegate.swift */; };
 		0EF69AEF266DB87D00A184C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF69AEE266DB87D00A184C9 /* SceneDelegate.swift */; };
-		0EF69AF1266DB87D00A184C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF69AF0266DB87D00A184C9 /* ViewController.swift */; };
 		0EF69AF4266DB87D00A184C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF69AF2266DB87D00A184C9 /* Main.storyboard */; };
 		0EF69AF6266DB87D00A184C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF69AF5266DB87D00A184C9 /* Assets.xcassets */; };
 		0EF69AF9266DB87D00A184C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF69AF7266DB87D00A184C9 /* LaunchScreen.storyboard */; };
 		0EF69B04266DB87D00A184C9 /* ParallaxHeaderPagingViewControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF69B03266DB87D00A184C9 /* ParallaxHeaderPagingViewControllerDemoTests.swift */; };
 		0EF69B0F266DB87D00A184C9 /* ParallaxHeaderPagingViewControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF69B0E266DB87D00A184C9 /* ParallaxHeaderPagingViewControllerDemoUITests.swift */; };
+		0EF69B20266DB9AD00A184C9 /* ParchmentExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF69B1D266DB9AD00A184C9 /* ParchmentExampleViewController.swift */; };
+		0EF69B21266DB9AD00A184C9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF69B1E266DB9AD00A184C9 /* TableViewController.swift */; };
+		0EF69B23266DBBF400A184C9 /* StarshipHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF69B22266DBBF400A184C9 /* StarshipHeader.xib */; };
+		9989681676087B693731B51F /* Pods_ParallaxHeaderPagingViewControllerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86772EFFBBB173EB0AEC34D /* Pods_ParallaxHeaderPagingViewControllerDemoTests.framework */; };
+		B4FA2A6F654FE4FD482D8230 /* Pods_ParallaxHeaderPagingViewControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1693D0A998E153E25895376 /* Pods_ParallaxHeaderPagingViewControllerDemo.framework */; };
+		CEC53D6FF17DD675AFD9F246 /* Pods_ParallaxHeaderPagingViewControllerDemo_ParallaxHeaderPagingViewControllerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD63305690F8BD15EC92681 /* Pods_ParallaxHeaderPagingViewControllerDemo_ParallaxHeaderPagingViewControllerDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		0EF69AE9266DB87C00A184C9 /* ParallaxHeaderPagingViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxHeaderPagingViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF69AEC266DB87D00A184C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EF69AEE266DB87D00A184C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0EF69AF0266DB87D00A184C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0EF69AF3266DB87D00A184C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EF69AF5266DB87D00A184C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EF69AF8266DB87D00A184C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,18 @@
 		0EF69B0A266DB87D00A184C9 /* ParallaxHeaderPagingViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxHeaderPagingViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF69B0E266DB87D00A184C9 /* ParallaxHeaderPagingViewControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderPagingViewControllerDemoUITests.swift; sourceTree = "<group>"; };
 		0EF69B10266DB87D00A184C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EF69B1D266DB9AD00A184C9 /* ParchmentExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParchmentExampleViewController.swift; sourceTree = "<group>"; };
+		0EF69B1E266DB9AD00A184C9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0EF69B22266DBBF400A184C9 /* StarshipHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarshipHeader.xib; sourceTree = "<group>"; };
+		111EA18298E6D1B27C41897D /* Pods-ParallaxHeaderPagingViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxHeaderPagingViewControllerDemo.release.xcconfig"; path = "Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo/Pods-ParallaxHeaderPagingViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		26A717BFDF2E5FAEE8C43A69 /* Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DD63305690F8BD15EC92681 /* Pods_ParallaxHeaderPagingViewControllerDemo_ParallaxHeaderPagingViewControllerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParallaxHeaderPagingViewControllerDemo_ParallaxHeaderPagingViewControllerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A15682616DF79E83C018245 /* Pods-ParallaxHeaderPagingViewControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxHeaderPagingViewControllerDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemoTests/Pods-ParallaxHeaderPagingViewControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A4213AF5914F35D3D4396AE /* Pods-ParallaxHeaderPagingViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxHeaderPagingViewControllerDemo.debug.xcconfig"; path = "Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo/Pods-ParallaxHeaderPagingViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE92D40441282E1EE30D7C6 /* Pods-ParallaxHeaderPagingViewControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxHeaderPagingViewControllerDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemoTests/Pods-ParallaxHeaderPagingViewControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B027BB24803475A697D1DA53 /* Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D86772EFFBBB173EB0AEC34D /* Pods_ParallaxHeaderPagingViewControllerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParallaxHeaderPagingViewControllerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1693D0A998E153E25895376 /* Pods_ParallaxHeaderPagingViewControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParallaxHeaderPagingViewControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FA2A6F654FE4FD482D8230 /* Pods_ParallaxHeaderPagingViewControllerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9989681676087B693731B51F /* Pods_ParallaxHeaderPagingViewControllerDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC53D6FF17DD675AFD9F246 /* Pods_ParallaxHeaderPagingViewControllerDemo_ParallaxHeaderPagingViewControllerDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				0EF69B02266DB87D00A184C9 /* ParallaxHeaderPagingViewControllerDemoTests */,
 				0EF69B0D266DB87D00A184C9 /* ParallaxHeaderPagingViewControllerDemoUITests */,
 				0EF69AEA266DB87C00A184C9 /* Products */,
+				A829F556EC7B242C6AC3E0B0 /* Pods */,
+				C53D6159F677CBF234E3312E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +122,9 @@
 			children = (
 				0EF69AEC266DB87D00A184C9 /* AppDelegate.swift */,
 				0EF69AEE266DB87D00A184C9 /* SceneDelegate.swift */,
-				0EF69AF0266DB87D00A184C9 /* ViewController.swift */,
+				0EF69B1D266DB9AD00A184C9 /* ParchmentExampleViewController.swift */,
+				0EF69B1E266DB9AD00A184C9 /* TableViewController.swift */,
+				0EF69B22266DBBF400A184C9 /* StarshipHeader.xib */,
 				0EF69AF2266DB87D00A184C9 /* Main.storyboard */,
 				0EF69AF5266DB87D00A184C9 /* Assets.xcassets */,
 				0EF69AF7266DB87D00A184C9 /* LaunchScreen.storyboard */,
@@ -128,6 +151,29 @@
 			path = ParallaxHeaderPagingViewControllerDemoUITests;
 			sourceTree = "<group>";
 		};
+		A829F556EC7B242C6AC3E0B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A4213AF5914F35D3D4396AE /* Pods-ParallaxHeaderPagingViewControllerDemo.debug.xcconfig */,
+				111EA18298E6D1B27C41897D /* Pods-ParallaxHeaderPagingViewControllerDemo.release.xcconfig */,
+				26A717BFDF2E5FAEE8C43A69 /* Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.debug.xcconfig */,
+				B027BB24803475A697D1DA53 /* Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.release.xcconfig */,
+				6FE92D40441282E1EE30D7C6 /* Pods-ParallaxHeaderPagingViewControllerDemoTests.debug.xcconfig */,
+				5A15682616DF79E83C018245 /* Pods-ParallaxHeaderPagingViewControllerDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C53D6159F677CBF234E3312E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1693D0A998E153E25895376 /* Pods_ParallaxHeaderPagingViewControllerDemo.framework */,
+				4DD63305690F8BD15EC92681 /* Pods_ParallaxHeaderPagingViewControllerDemo_ParallaxHeaderPagingViewControllerDemoUITests.framework */,
+				D86772EFFBBB173EB0AEC34D /* Pods_ParallaxHeaderPagingViewControllerDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF69B13266DB87D00A184C9 /* Build configuration list for PBXNativeTarget "ParallaxHeaderPagingViewControllerDemo" */;
 			buildPhases = (
+				C22F5A8EF8BDDB2D786AEB07 /* [CP] Check Pods Manifest.lock */,
 				0EF69AE5266DB87C00A184C9 /* Sources */,
 				0EF69AE6266DB87C00A184C9 /* Frameworks */,
 				0EF69AE7266DB87C00A184C9 /* Resources */,
+				1268D54E8B86DF74D70233BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF69B16266DB87D00A184C9 /* Build configuration list for PBXNativeTarget "ParallaxHeaderPagingViewControllerDemoTests" */;
 			buildPhases = (
+				AD0B13B5DF0C5AD3506755AA /* [CP] Check Pods Manifest.lock */,
 				0EF69AFB266DB87D00A184C9 /* Sources */,
 				0EF69AFC266DB87D00A184C9 /* Frameworks */,
 				0EF69AFD266DB87D00A184C9 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF69B19266DB87D00A184C9 /* Build configuration list for PBXNativeTarget "ParallaxHeaderPagingViewControllerDemoUITests" */;
 			buildPhases = (
+				2A89340443F2CDB7DE25A71C /* [CP] Check Pods Manifest.lock */,
 				0EF69B06266DB87D00A184C9 /* Sources */,
 				0EF69B07266DB87D00A184C9 /* Frameworks */,
 				0EF69B08266DB87D00A184C9 /* Resources */,
+				98DA8CEFF7AC0167B5FE5157 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +284,7 @@
 			files = (
 				0EF69AF9266DB87D00A184C9 /* LaunchScreen.storyboard in Resources */,
 				0EF69AF6266DB87D00A184C9 /* Assets.xcassets in Resources */,
+				0EF69B23266DBBF400A184C9 /* StarshipHeader.xib in Resources */,
 				0EF69AF4266DB87D00A184C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,13 +305,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1268D54E8B86DF74D70233BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo/Pods-ParallaxHeaderPagingViewControllerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo/Pods-ParallaxHeaderPagingViewControllerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo/Pods-ParallaxHeaderPagingViewControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A89340443F2CDB7DE25A71C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98DA8CEFF7AC0167B5FE5157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests/Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0B13B5DF0C5AD3506755AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParallaxHeaderPagingViewControllerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C22F5A8EF8BDDB2D786AEB07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParallaxHeaderPagingViewControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EF69AE5266DB87C00A184C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EF69AF1266DB87D00A184C9 /* ViewController.swift in Sources */,
+				0EF69B21266DB9AD00A184C9 /* TableViewController.swift in Sources */,
 				0EF69AED266DB87D00A184C9 /* AppDelegate.swift in Sources */,
+				0EF69B20266DB9AD00A184C9 /* ParchmentExampleViewController.swift in Sources */,
 				0EF69AEF266DB87D00A184C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,11 +589,13 @@
 		};
 		0EF69B14266DB87D00A184C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4213AF5914F35D3D4396AE /* Pods-ParallaxHeaderPagingViewControllerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ParallaxHeaderPagingViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +609,13 @@
 		};
 		0EF69B15266DB87D00A184C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111EA18298E6D1B27C41897D /* Pods-ParallaxHeaderPagingViewControllerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ParallaxHeaderPagingViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +629,7 @@
 		};
 		0EF69B17266DB87D00A184C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE92D40441282E1EE30D7C6 /* Pods-ParallaxHeaderPagingViewControllerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +651,7 @@
 		};
 		0EF69B18266DB87D00A184C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A15682616DF79E83C018245 /* Pods-ParallaxHeaderPagingViewControllerDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +673,7 @@
 		};
 		0EF69B1A266DB87D00A184C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A717BFDF2E5FAEE8C43A69 /* Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +693,7 @@
 		};
 		0EF69B1B266DB87D00A184C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B027BB24803475A697D1DA53 /* Pods-ParallaxHeaderPagingViewControllerDemo-ParallaxHeaderPagingViewControllerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

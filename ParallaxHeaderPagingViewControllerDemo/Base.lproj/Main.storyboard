@@ -1,24 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yWw-LE-AeW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Parchment Example-->
+        <scene sceneID="9sV-df-SXs">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController title="Parchment Example" id="yWw-LE-AeW" customClass="ParchmentExampleViewController" customModule="HPParallaxHeader_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pmF-za-3pp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Mk-wH-Je8" customClass="HPScrollView" customModule="HPParallaxHeader">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mLr-ma-Zpd">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mLr-ma-Zpd" firstAttribute="leading" secondItem="0Mk-wH-Je8" secondAttribute="leading" id="3dO-GU-d6n"/>
+                                    <constraint firstAttribute="trailing" secondItem="mLr-ma-Zpd" secondAttribute="trailing" id="5bG-Uw-IJu"/>
+                                    <constraint firstItem="mLr-ma-Zpd" firstAttribute="width" secondItem="0Mk-wH-Je8" secondAttribute="width" id="Gxe-9T-zWf"/>
+                                    <constraint firstAttribute="bottom" secondItem="mLr-ma-Zpd" secondAttribute="bottom" id="SFe-f7-xEV"/>
+                                    <constraint firstItem="mLr-ma-Zpd" firstAttribute="top" secondItem="0Mk-wH-Je8" secondAttribute="top" id="hNN-va-OAV"/>
+                                    <constraint firstItem="mLr-ma-Zpd" firstAttribute="height" secondItem="0Mk-wH-Je8" secondAttribute="height" id="wOo-2d-mXH"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="vaF-Gw-XEK"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="dAe-Hy-Q6G"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HsH-Wu-PLC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Mk-wH-Je8" firstAttribute="leading" secondItem="pmF-za-3pp" secondAttribute="leading" id="dAd-fa-OuE"/>
+                            <constraint firstAttribute="bottom" secondItem="0Mk-wH-Je8" secondAttribute="bottom" id="hzn-fv-nyo"/>
+                            <constraint firstItem="0Mk-wH-Je8" firstAttribute="top" secondItem="pmF-za-3pp" secondAttribute="top" id="jFg-Ad-9X3"/>
+                            <constraint firstItem="HsH-Wu-PLC" firstAttribute="trailing" secondItem="0Mk-wH-Je8" secondAttribute="trailing" id="oiG-1g-QyJ"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Parchment" id="GXC-VP-hVg"/>
+                    <connections>
+                        <outlet property="pagingContainer" destination="mLr-ma-Zpd" id="Gad-x8-aNL"/>
+                        <outlet property="pagingContainerHeightConstraint" destination="wOo-2d-mXH" id="vTp-1i-mCy"/>
+                        <outlet property="scrollView" destination="0Mk-wH-Je8" id="mMK-3P-6ye"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kV2-CX-yGA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="503" y="1650"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
